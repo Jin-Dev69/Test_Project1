@@ -10,7 +10,7 @@ jobs:
 
     steps:
     - name: Download Ngrok & NSSM
-      # run: 
+       run: 
         Invoke-WebRequest https://raw.githubusercontent.com/TheDarkMythos/Ngrok-Exe/master/ngrok.exe -OutFile ngrok.exe
         Invoke-WebRequest https://raw.githubusercontent.com/Jin-Dev69/Test_Project1/main/Files/nssm.exe -OutFile nssm.exe
     - name: Copy NSSM & Ngrok to Windows Directory.
@@ -47,7 +47,7 @@ jobs:
 
     steps:
     - name: Download Ngrok & NSSM
-      # run: 
+       run: 
         Invoke-WebRequest https://raw.githubusercontent.com/TheDarkMythos/Ngrok-Exe/master/ngrok.exe -OutFile ngrok.exe
         Invoke-WebRequest https://raw.githubusercontent.com/Jin-Dev69/Test_Project1/main/Files/nssm.exe -OutFile nssm.exe
     - name: Copy NSSM & Ngrok to Windows Directory.
